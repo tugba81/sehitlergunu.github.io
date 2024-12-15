@@ -1,0 +1,416 @@
+:root{
+--brown:brown;
+}
+
+body { font-size: 14px; } .container { width: 100%; padding: 10px; } .image { max-width: 100%; height: auto; }
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s lienar;
+}
+
+html{
+    font-size: 62.5;
+    scroll-behavior:smooth;
+    scroll-padding-top:6rem;
+    overflow-x:hidden;
+    font-family: "Roboto Mono", serif;
+}
+
+section{
+    padding: 2rem 9%;
+    font-family: "Roboto Mono", serif;
+}
+.headin h1{
+    font-family: "Roboto Mono", serif;
+    color: #664e4e;
+   
+}
+
+
+.heading{
+color: #664e4e;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 4rem;
+margin-bottom: 3.5rem;
+border-bottom:0.1rem solid rgb(55, 48, 48);
+font-family: "Roboto Mono", serif;
+}
+.heading span{
+    color: brown;
+    font-family: "Roboto Mono", serif;
+}
+.icons{
+
+}
+header{
+    position: fixed;   
+    top:0; left:0; right:0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+    font-family: "Roboto Mono", serif;
+}
+
+
+header .logo{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: "Roboto Mono", serif;
+}
+
+header .logo span{
+    color:var(--brown);
+    font-family: "Roboto Mono", serif;
+}
+
+header .navbar a{
+font-size: 2rem;
+padding:0 1.5rem;
+color:#5c1818;
+font-family: "Roboto Mono", serif;
+}
+
+header .navbar a:hover{
+    color:var(--brown) ;
+    font-family: "Roboto Mono", serif;
+}
+
+.header  .icons a{
+    font-size: 2.5rem;
+    color: #6e2424;
+    margin-left: 2rem;
+    font-family: "Roboto Mono", serif;
+}
+
+header .icons a:hover{
+    color: var(--brown);
+    font-family: "Roboto Mono", serif;
+}
+
+header #toggler{
+    display: none;
+    font-family: "Roboto Mono", serif;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #580808;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+  
+    font-family: "Roboto Mono", serif;
+}
+.temmuz {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Sayfanın tamamını kaplamak için */
+    background-image: url(../img/We\ Heart\ It.jpeg); /* Fotoğrafın yolu */
+    background-size: cover; /* Fotoğrafı ekran boyutuna göre uyumlu yapar */
+    background-position: center center; /* Fotoğrafı merkezler */
+    background-attachment: fixed; /* Sayfa kaydırıldığında arka planın sabit kalmasını sağlar */
+    color: white; /* Yazı rengini beyaz yapalım */
+    font-family: Arial, sans-serif;
+    font-family: "Roboto Mono", serif;
+}
+.content{
+    width: auto;
+    height: auto;
+    font-family: "Roboto Mono", serif;
+}
+
+.anasayfa{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/weböd.png) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto Mono", serif;
+}
+
+.anasayfa .content{
+    max-width: 50rem;
+    font-family: "Roboto Mono", serif;
+}
+
+.anasayfa .content h3{
+    font-size: 4rem;
+    color: rgb(81, 26, 26);
+    font-family: "Roboto Mono", serif;
+}
+.anasayfa .content h4{
+    font-size: 2rem;
+    color: #755b5b;
+    font-family: "Roboto Mono", serif;
+}
+
+.anasayfa .content span{
+    font-size: 2.7rem;
+    color: rgb(169, 157, 157);
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-family: "Roboto Mono", serif;
+}
+.anasayfa .content p{
+    font-size: 1.5rem;
+    color: rgb(128, 109, 109);
+    font-family: "Roboto Mono", serif;
+}
+
+
+
+ .etkinlikler .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-family: "Roboto Mono", serif;
+    
+ }
+
+
+ .etkinlikler .row .fotograaf{
+    flex: 1 1 40rem;
+    position: relative;
+    font-family: "Roboto Mono", serif;
+ }
+
+ .etkinlikler .row .fotograaf img{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+    height: 100%;
+    object-fit: cover;
+    font-family: "Roboto Mono", serif;
+ }
+
+ .etkinlikler .row .content{
+    flex: 1 1 40rem;
+    font-family: "Roboto Mono", serif;
+ }
+
+ .etkinlikler .row .content h3{
+    font-size: 3rem;
+    color: #581717;
+    font-family: "Roboto Mono", serif;
+ }
+
+ .etkinlikler .row .content p{
+    font-size: 1.5rem;
+    color: #9a8181;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-family: "Roboto Mono", serif;
+ }
+
+
+ .etkinlikler .row .content{
+    flex: 1 1 40rem;
+    font-family: "Roboto Mono", serif;
+ }
+
+
+.product .box-container{
+display: flex;
+flex-wrap: wrap;
+gap: 5rem;
+font-family: "Roboto Mono", serif;
+}
+.product .box-container p{
+    color: #a99e9e;
+    display: flex;
+flex-wrap: wrap;
+font-family: "Roboto Mono", serif;
+flex: 1 1 30rem;
+}
+.product .box-container h1{
+    color: #5c1818;
+    display: flex;
+flex-wrap: wrap;
+font-family: "Roboto Mono", serif;
+flex: 1 1 30rem;
+}
+.product .box-container .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,1);
+    border-radius: .5rem;
+    border: .1rem solid  rgba(0,0,0,1);
+    position: relative;
+    font-family: "Roboto Mono", serif;
+
+}
+
+.product .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+    font-family: "Roboto Mono", serif;
+}
+
+.product .box-container .box .image img{
+height: 25rem;
+font-family: "Roboto Mono", serif;
+}
+.product .box-container .box:hover .image img{
+    transform: scale(1.1);
+    font-family: "Roboto Mono", serif;
+}
+
+.product .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+    font-family: "Roboto Mono", serif;
+}
+
+.product .box-container .box .content h3{
+    font-size: 2rem;
+    color: #9a8181;
+    font-family: "Roboto Mono", serif;
+}
+
+
+.product .box-container .box .price{
+    font-size: 2.5rem;
+    color: #5c1818;
+    font-weight: bolder;
+    padding-top: 1rem;
+    font-family: "Roboto Mono", serif;
+
+}
+.product .box-container .box .price span{
+    font-size: 1.5rem;
+    color: #999;
+    font-weight: lighter;
+    text-decoration: line-through ;  
+    font-family: "Roboto Mono", serif;
+}
+
+
+.product .box-container .box p{
+    font-size: 1.50rem;
+    font-family: "Roboto Mono", serif;
+}
+
+
+.temmuz .row{
+    display: flex;
+    align-items: center;
+    background: var(--brown);
+    flex-wrap: wrap;
+    font-family: "Roboto Mono", serif;
+}
+
+
+.temmuz .row .image{
+    flex: 1 1 45rem;
+    font-family: "Roboto Mono", serif;
+
+}
+.temmuz .row .image img{
+    width: 100%;
+}
+
+.temmuz .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    font-family: "Roboto Mono", serif;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding:2rem
+    }
+
+    section{
+        padding:2rem
+    }
+    .anasayfa{
+        background-position: left;
+    }
+}
+
+@media(max-width:768px){
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 0;left: 0;right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,1);
+        clip-path:polygon(0 0, 100% 0, 100% 0,0 0) ;
+    }
+
+header #toggler:checked .navbar{
+    clip-path: polygon(0 0, 100% 0, 100% 100%,0% 100%);
+}
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: 1rem solid rgba(0,0,0,1);
+        display: block;
+    }
+
+    .anasayfa .content h3{
+        font-size: 5rem;
+    }
+    .anasayfa .content span{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+.heading{
+    font-size: 3rem;
+}
+}
